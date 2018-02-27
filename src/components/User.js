@@ -28,10 +28,13 @@ class User extends React.Component {
           <ul>Here are your current Predictions : {this.state.pastPredictions}</ul>
           <ul>Here are your past Predictions: {this.state.pastPredictions}</ul>
           <ul>Your total profits made playing against TinoIQ: {this.state.userProfits}</ul>
+          
         </ul>
       </div>
     )
   }
 }
+
+// Ticker || Window || Prediction || Range of Prices || Tino IQ prediction || Prediction Correct || Tino Correct || beat TINO
 
 export default User;
